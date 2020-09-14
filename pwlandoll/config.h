@@ -22,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* USB Device descriptor parameter */
 #define VENDOR_ID 0xF055    // VOID
 #define PRODUCT_ID 0x3531   // VOID40
-#define DEVICE_VER 0x0002
+#define DEVICE_VER 0x0003
 #define MANUFACTURER Peter Landoll
 #define PRODUCT VOID40PL
 #define DESCRIPTION A handwired 40% 12x4 ortholinear keyboard with BLE
