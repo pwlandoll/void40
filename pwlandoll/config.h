@@ -31,6 +31,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROWS 4
 #define MATRIX_COLS 12
 
+// Ensure that Bluetooth pins are defined correctly
+#define AdafruitBleResetPin D4
+#define AdafruitBleCSPin B4
+#define AdafruitBleIRQPin E6
 // Row pins on A0, A1, A2, A3
 #define MATRIX_ROW_PINS { F7, F6, F5, F4 }
 // Column pins on A4, A5, 0, 1, 13, 12, 11, 10, 9, 6, 5, 3
@@ -54,3 +58,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #if !defined(NO_PRINT) && !defined(CONSOLE_ENABLE)
 #define NO_PRINT
 #endif // !NO_PRINT
+
+#define OUTPUT_AUTO_ENABLE
